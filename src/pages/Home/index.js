@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Alert} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import Map from '../../assets/map.jpg';
@@ -20,7 +20,10 @@ export default function HomeScreen({navigation}) {
       <BGMap source={Map} imageStyle={{opacity: 0.3}}>
         <Container>
           <AlertTitle>Pressione em caso de emergência</AlertTitle>
-          <ButtonContainer>
+          <ButtonContainer
+            onPress={() => {
+              Alert.alert('Enviado!', 'A ajuda foi acionada');
+            }}>
             <ButtonRadius>
               <View style={{margin: 10, marginBottom: 0}}>
                 <MaterialCommunityIcons
