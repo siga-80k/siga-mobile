@@ -1,5 +1,5 @@
 import React from 'react';
-import {ScrollView, Text} from 'react-native';
+import {ScrollView, View} from 'react-native';
 
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
@@ -62,58 +62,61 @@ const MyJobs = () => {
           <FieldLabel>Trabalhos anteriores</FieldLabel>
           <SectionSeparator />
         </Row>
+
         <ScrollView>
-          <JobContainer>
-            <SimpleRow>
-              <ItemTitle>Rio de Janeiro</ItemTitle>
+          <View style={{flex: 1}}>
+            <JobContainer>
+              <SimpleRow>
+                <ItemTitle>Rio de Janeiro</ItemTitle>
 
-              <Arrow name={'ios-arrow-round-forward'} size={35} />
+                <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-              <ItemTitle>São Paulo</ItemTitle>
-            </SimpleRow>
-            <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-            <ItemSubtitle>Carga a granel</ItemSubtitle>
-            <JobDate>Terminou em 14/06/2020</JobDate>
-          </JobContainer>
+                <ItemTitle>São Paulo</ItemTitle>
+              </SimpleRow>
+              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+              <ItemSubtitle>Carga a granel</ItemSubtitle>
+              <JobDate>Terminou em 14/06/2020</JobDate>
+            </JobContainer>
 
-          <JobContainer>
-            <SimpleRow>
-              <ItemTitle>Volta Redonda</ItemTitle>
+            <JobContainer>
+              <SimpleRow>
+                <ItemTitle>Volta Redonda</ItemTitle>
 
-              <Arrow name={'ios-arrow-round-forward'} size={35} />
+                <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-              <ItemTitle>Rio de Janeiro</ItemTitle>
-            </SimpleRow>
-            <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-            <ItemSubtitle>Carga frigorífica</ItemSubtitle>
-            <JobDate>Terminou em 14/06/2020</JobDate>
-          </JobContainer>
+                <ItemTitle>Rio de Janeiro</ItemTitle>
+              </SimpleRow>
+              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+              <ItemSubtitle>Carga frigorífica</ItemSubtitle>
+              <JobDate>Terminou em 14/06/2020</JobDate>
+            </JobContainer>
 
-          <JobContainer>
-            <SimpleRow>
-              <ItemTitle>Uberlândia</ItemTitle>
+            <JobContainer>
+              <SimpleRow>
+                <ItemTitle>Uberlândia</ItemTitle>
 
-              <Arrow name={'ios-arrow-round-forward'} size={35} />
+                <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-              <ItemTitle>Volta Redonda</ItemTitle>
-            </SimpleRow>
-            <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-            <ItemSubtitle>Carga viva</ItemSubtitle>
-            <JobDate>Terminou em 14/06/2020</JobDate>
-          </JobContainer>
+                <ItemTitle>Volta Redonda</ItemTitle>
+              </SimpleRow>
+              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+              <ItemSubtitle>Carga viva</ItemSubtitle>
+              <JobDate>Terminou em 14/06/2020</JobDate>
+            </JobContainer>
 
-          <JobContainer>
-            <SimpleRow>
-              <ItemTitle>Belo Horizonte</ItemTitle>
+            <JobContainer>
+              <SimpleRow>
+                <ItemTitle>Belo Horizonte</ItemTitle>
 
-              <Arrow name={'ios-arrow-round-forward'} size={35} />
+                <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-              <ItemTitle>Uberlândia</ItemTitle>
-            </SimpleRow>
-            <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-            <ItemSubtitle>Carga seca</ItemSubtitle>
-            <JobDate>Terminou em 14/06/2020</JobDate>
-          </JobContainer>
+                <ItemTitle>Uberlândia</ItemTitle>
+              </SimpleRow>
+              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+              <ItemSubtitle>Carga seca</ItemSubtitle>
+              <JobDate>Terminou em 14/06/2020</JobDate>
+            </JobContainer>
+          </View>
         </ScrollView>
       </FieldWrap>
     </Container>

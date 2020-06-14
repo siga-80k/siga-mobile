@@ -38,8 +38,8 @@ export const ButtomBaseText = styled.Text`
 `;
 
 export const FieldWrap = styled.View`
+  flex: 1;
   justify-content: center;
-  margin-bottom: 20px;
 `;
 
 export const FieldLabel = styled.Text`

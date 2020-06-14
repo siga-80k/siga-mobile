@@ -12,6 +12,7 @@ import MyJobs from '../pages/MyJobs';
 import Connection from '../pages/Connection';
 import Settings from '../pages/Settings';
 import ContactsForm from '../pages/ContactsForm';
+import SettingsOverview from '../pages/SettingsOverview';
 
 enableScreens();
 
@@ -28,6 +29,10 @@ function SettingsRoutes() {
       <EmergencySettings.Screen
         name={'ContactsForm'}
         component={ContactsForm}
+      />
+      <EmergencySettings.Screen
+        name={'SettingsOverview'}
+        component={SettingsOverview}
       />
     </EmergencySettings.Navigator>
   );

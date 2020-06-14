@@ -25,7 +25,7 @@ export default function HomeScreen({navigation}) {
               Alert.alert('Enviado!', 'A ajuda foi acionada');
             }}>
             <ButtonRadius>
-              <View style={{margin: 10, marginBottom: 0}}>
+              <View style={{margin: 10, marginBottom: 5}}>
                 <MaterialCommunityIcons
                   name="alert-circle-outline"
                   size={180}

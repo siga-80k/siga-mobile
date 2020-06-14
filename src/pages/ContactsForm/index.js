@@ -15,7 +15,7 @@ import {
   PickerText,
 } from './styles';
 
-const ContactsForm = () => {
+const ContactsForm = ({navigation}) => {
   const [result, setResult] = useState('Selecione a forma de contato');
 
   const onPress = () =>
@@ -53,7 +53,15 @@ const ContactsForm = () => {
           <PickerText>{result}</PickerText>
         </PickerContainer>
       ) : (
-        <></>
+        <PickerContainer>
+          <Picker
+            selectedValue={result}
+            style={{height: 50, width: '100%'}}
+            onValueChange={(itemValue, itemIndex) => setResult(itemValue)}>
+            <Picker.Item label="E-mail" value="E-mail" />
+            <Picker.Item label="Telefone" value="Telefone" />
+          </Picker>
+        </PickerContainer>
       )}
 
       <Form>
@@ -68,7 +76,12 @@ const ContactsForm = () => {
           onSubmitEditing={() => {}}
         />
 
-        <SubmitButton onPress={() => {}}>Cadastrar</SubmitButton>
+        <SubmitButton
+          onPress={() => {
+            navigation.navigate('SettingsOverview');
+          }}>
+          Cadastrar
+        </SubmitButton>
       </Form>
     </Container>
   );
