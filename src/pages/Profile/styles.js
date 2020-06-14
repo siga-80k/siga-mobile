@@ -118,3 +118,7 @@ export const Image = styled.Image`
 
   border-radius: 55px;
 `;
+
+export const BGMap = styled.ImageBackground`
+  flex: 1;
+`;
