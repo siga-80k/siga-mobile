@@ -10,7 +10,7 @@ import Routes from './src/routes';
 const App = () => {
   return (
     <NavigationContainer>
-      <StatusBar barStyle="light-content" backgroundColor="#fefefe" />
+      <StatusBar barStyle="dark-content" backgroundColor="#000" />
 
       <SafeAreaView style={{flex: 1, backgroundColor: '#fefefe'}}>
         <Routes />

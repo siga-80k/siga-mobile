@@ -45,6 +45,6 @@ export const LogoContainer = styled.View`
 `;
 
 export const LogoImage = styled.Image`
-  width: 300;
-  height: 200;
+  width: 300px;
+  height: 200px;
 `;

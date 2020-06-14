@@ -7,12 +7,12 @@ import SubmitButton from '../../components/SubmitButton';
 
 import {Container, AlertTitle, AlertSubTitle} from './styles';
 
-const Settings = ({navigation}) => {
+const ContactsForm = () => {
   return (
     <Container>
-      <AlertTitle>Insira sua palavra de segurança</AlertTitle>
+      <AlertTitle>Insira seu contato de segurança</AlertTitle>
       <AlertSubTitle>
-        A palavra será utilizada por comando de voz em caso de emergência
+        O sistema irá informar a situação para seu contato em caso de emergência
       </AlertSubTitle>
       <Form>
         <Input
@@ -21,8 +21,8 @@ const Settings = ({navigation}) => {
           autoCapitalize="none"
           keyboardType="email-address"
           name="user"
-          icon="lock"
-          placeholder="Palavra-chave"
+          icon="contacts"
+          placeholder="Telefone ou e-mail"
           returnKeyType="next"
           onSubmitEditing={() => {}}
         />
@@ -37,15 +37,10 @@ const Settings = ({navigation}) => {
           returnKeyType="next"
           onSubmitEditing={() => {}}
         />
-        <SubmitButton
-          onPress={() => {
-            navigation.navigate('ContactsForm');
-          }}>
-          Cadastrar
-        </SubmitButton>
+        <SubmitButton onPress={() => {}}>Cadastrar</SubmitButton>
       </Form>
     </Container>
   );
 };
 
-export default Settings;
+export default ContactsForm;

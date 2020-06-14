@@ -1,5 +1,7 @@
 import React from 'react';
+import {enableScreens} from 'react-native-screens';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {createNativeStackNavigator} from 'react-native-screens/native-stack';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
@@ -7,10 +9,29 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Home from '../pages/Home';
 import Profile from '../pages/Profile';
 import MyJobs from '../pages/MyJobs';
-import Settings from '../pages/Settings';
 import Connection from '../pages/Connection';
+import Settings from '../pages/Settings';
+import ContactsForm from '../pages/ContactsForm';
+
+enableScreens();
 
 const App = createBottomTabNavigator();
+const EmergencySettings = createNativeStackNavigator();
+
+function SettingsRoutes() {
+  return (
+    <EmergencySettings.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
+      <EmergencySettings.Screen name={'Keyword'} component={Settings} />
+      <EmergencySettings.Screen
+        name={'ContactsForm'}
+        component={ContactsForm}
+      />
+    </EmergencySettings.Navigator>
+  );
+}
 
 function AppRoutes() {
   return (
@@ -60,7 +81,7 @@ function AppRoutes() {
 
       <App.Screen
         name="Settings"
-        component={Settings}
+        component={SettingsRoutes}
         options={{
           showIcon: true,
           tabBarIcon: ({color}) => (
