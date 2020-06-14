@@ -50,36 +50,6 @@ export default function Profile({navigation}) {
                 </ColPlayer>
               </RowCard>
             </CardBase>
-            <InfoContainer>
-              <FieldWrap>
-                <Row>
-                  <FieldLabel>Placa do veículo</FieldLabel>
-                  <SectionSeparator />
-                </Row>
-                <FieldInfo>AAA-9999</FieldInfo>
-              </FieldWrap>
-              <FieldWrap>
-                <Row>
-                  <FieldLabel>CPF</FieldLabel>
-                  <SectionSeparator />
-                </Row>
-                <FieldInfo>123.456.789-00</FieldInfo>
-              </FieldWrap>
-              <FieldWrap>
-                <Row>
-                  <FieldLabel>Modelo do veículo</FieldLabel>
-                  <SectionSeparator />
-                </Row>
-                <FieldInfo>Scania S500</FieldInfo>
-              </FieldWrap>
-              <FieldWrap>
-                <Row>
-                  <FieldLabel>Contato emergencial</FieldLabel>
-                  <SectionSeparator />
-                </Row>
-                <FieldInfo>(99) 99999-9999</FieldInfo>
-              </FieldWrap>
-            </InfoContainer>
             <ButtomBase>
               <RowCard>
                 <Row justify="flex-start">
@@ -90,6 +60,82 @@ export default function Profile({navigation}) {
                 </Row>
               </RowCard>
             </ButtomBase>
+
+            <InfoContainer>
+              <FieldInfo>Dados Pessoais</FieldInfo>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Nome completo</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>Silvio Santos Silva</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>CPF</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>668.194.478-67</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Data de nascimento</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>01/01/1951</FieldInfo>
+              </FieldWrap>
+            </InfoContainer>
+
+            <InfoContainer>
+              <FieldInfo>CNH</FieldInfo>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Número</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>66819447867</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Tipo</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>E</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Data de emissão</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>01/01/2018</FieldInfo>
+              </FieldWrap>
+            </InfoContainer>
+
+            <InfoContainer>
+              <FieldInfo>Dados do veículo</FieldInfo>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Placa</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>MAO-3333</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>Modelo</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>Scania S500</FieldInfo>
+              </FieldWrap>
+              <FieldWrap>
+                <Row>
+                  <FieldLabel>RENAVAM</FieldLabel>
+                  <SectionSeparator />
+                </Row>
+                <FieldInfo>0081944786-7</FieldInfo>
+              </FieldWrap>
+            </InfoContainer>
+
             <ButtomBase>
               <RowCard>
                 <Row justify="flex-start">

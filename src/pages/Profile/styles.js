@@ -52,7 +52,7 @@ export const CardBaseName = styled.Text`
   font-size: 28px;
 `;
 
-export const ButtomBase = styled.View`
+export const ButtomBase = styled.TouchableOpacity`
   background: #009bdb;
   justify-content: flex-start;
   height: 70px;
@@ -91,7 +91,7 @@ export const InfoContainer = styled.View`
 
 export const FieldWrap = styled.View`
   flex: 1;
-  margin-bottom: 40px;
+  margin-top: 20px;
 `;
 
 export const FieldLabel = styled.Text`
