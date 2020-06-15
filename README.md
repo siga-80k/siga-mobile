@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/jGT30Dp.png" alt="Girl in a jacket" width="500" height="600">
+<img src="https://i.imgur.com/jGT30Dp.png" alt="Girl in a jacket" width="720" height="1080">
 
 ## Installation
 
