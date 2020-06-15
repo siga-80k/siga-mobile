@@ -1,6 +1,4 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
+<img src="https://i.imgur.com/jGT30Dp.png" alt="Girl in a jacket" width="500" height="600">
 
 ## Installation
 
@@ -36,6 +34,5 @@ react-native run-ios
 ![](https://i.imgur.com/vmPZxmr.png)
 ![](https://i.imgur.com/hBvwqfV.png)
 ![](https://i.imgur.com/frjxSZC.png)
-![](https://i.imgur.com/jGT30Dp.png)
 
 
