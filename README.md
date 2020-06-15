@@ -9,31 +9,26 @@
   This repository contains all libs about this project with the referenced program languages.
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/siga-80k/SIGA-Libs">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/siga-80k/siga-mobile">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/siga-80k/SIGA-Libs.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/siga-80k/siga-mobile.svg">
 
-  <a href="https://www.codacy.com/app/BrewertonSantos/SIGA-Libs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrewertonSantos/SIGA-Libs&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/app/siga-80k/siga-mobile?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=siga-80k/siga-mobile&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://api.codacy.com/project/badge/Grade/430e60f15a4c484898f4cac9408ce90b">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/BrewertonSantos/SIGA-Libs.svg">
-  <a href="https://github.com/BrewertonSantos/SIGA-Libs/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/BrewertonSantos/SIGA-Libs.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/siga-80k/siga-mobile.svg">
+  <a href="https://github.com/siga-80k/siga-mobile/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/siga-80k/siga-mobile.svg">
   </a>
 
-  <a href="https://github.com/BrewertonSantos/SIGA-Libs">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/BrewertonSantos/SIGA-Libs.svg">
+  <a href="https://github.com/siga-80k/siga-mobile">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/siga-80k/siga-mobile.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/BrewertonSantos/SIGA-Libs.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/siga-80k/siga-mobile.svg">
   </p>
 
-  <p align="center">
-    <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#memo-license">License</a>
-  </p>
 
 ## Instalação
 
