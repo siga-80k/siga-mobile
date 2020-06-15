@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, ScrollView} from 'react-native';
 import Orientation from 'react-native-orientation-locker';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import {Form} from '@unform/mobile';
 // Assets
@@ -53,9 +54,12 @@ export default function Profile({navigation}) {
             <ButtomBase>
               <RowCard>
                 <Row justify="flex-start">
-                  <FontAwesome5 name="edit" size={24} color="#fff" />
-                  <ButtomBaseText onPress={() => {}}>
-                    Editar perfil
+                  <FontAwesome name="gear" size={24} color="#fff" />
+                  <ButtomBaseText
+                    onPress={() => {
+                      navigation.navigate('Keyword');
+                    }}>
+                    Configurações de emergência
                   </ButtomBaseText>
                 </Row>
               </RowCard>

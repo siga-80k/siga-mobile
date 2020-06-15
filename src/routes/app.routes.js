@@ -13,6 +13,7 @@ import Connection from '../pages/Connection';
 import Settings from '../pages/Settings';
 import ContactsForm from '../pages/ContactsForm';
 import SettingsOverview from '../pages/SettingsOverview';
+import Health from '../pages/Health';
 
 enableScreens();
 
@@ -25,6 +26,7 @@ function SettingsRoutes() {
       screenOptions={{
         headerShown: false,
       }}>
+      <EmergencySettings.Screen name={'Profile'} component={Profile} />
       <EmergencySettings.Screen name={'Keyword'} component={Settings} />
       <EmergencySettings.Screen
         name={'ContactsForm'}
@@ -85,19 +87,19 @@ function AppRoutes() {
       />
 
       <App.Screen
-        name="Settings"
-        component={SettingsRoutes}
+        name="Health"
+        component={Health}
         options={{
           showIcon: true,
           tabBarIcon: ({color}) => (
-            <FontAwesome name="gear" size={25} color={color} />
+            <FontAwesome name="heartbeat" size={25} color={color} />
           ),
         }}
       />
 
       <App.Screen
-        name="Perfil"
-        component={Profile}
+        name="Settings"
+        component={SettingsRoutes}
         options={{
           showIcon: true,
           tabBarIcon: ({color}) => (
