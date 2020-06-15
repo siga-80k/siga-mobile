@@ -57,7 +57,11 @@ react-native run-ios
 
 # APK
 
-<a href="https://bit.ly/2YGgZvQ">Download</a>
+  <p align="center">
+    <a href="https://bit.ly/2YGgZvQ" target="_blank">
+      <img alt="Apk Demo" src="https://i.imgur.com/ekMIWIA.png" width="425" height="109">
+    </a>
+  </p>
 
 # Telas
 
