@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import Pression from '../../assets/health-icon.svg';
+import Sleep from '../../assets/sleep.svg';
 import Stethoscope from '../../assets/stethoscope';
 
 import {
@@ -18,16 +18,16 @@ const Health = () => {
     <Container>
       <HealthBox category={'#FFB55C'}>
         <SVGContainer>
-          <Pression width={32} height={32} />
+          <Sleep width={40} height={40} />
         </SVGContainer>
-        <HealthTitle>Pressão arterial</HealthTitle>
+        <HealthTitle>Qualidade do sono</HealthTitle>
 
         <View style={{flexDirection: 'row', justifyContent: 'center'}}>
-          <Value>125/</Value>
-          <Value>78</Value>
+          <Value>5h/</Value>
+          <Value>dia</Value>
         </View>
 
-        <Category>Elevada</Category>
+        <Category>Turbulento</Category>
       </HealthBox>
 
       <HealthBox category={'#58A397'}>

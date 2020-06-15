@@ -57,68 +57,70 @@ const MyJobs = () => {
 
       {/* TRABALHO ANTERIORES */}
 
-      <FieldWrap>
-        <Row>
-          <FieldLabel>Trabalhos anteriores</FieldLabel>
-          <SectionSeparator />
-        </Row>
+      <View style={{flex: 1}}>
+        <FieldWrap>
+          <Row>
+            <FieldLabel>Trabalhos anteriores</FieldLabel>
+            <SectionSeparator />
+          </Row>
 
-        <ScrollView>
-          <View style={{flex: 1}}>
-            <JobContainer>
-              <SimpleRow>
-                <ItemTitle>Rio de Janeiro</ItemTitle>
+          <ScrollView>
+            <View style={{flex: 1}}>
+              <JobContainer>
+                <SimpleRow>
+                  <ItemTitle>Rio de Janeiro</ItemTitle>
 
-                <Arrow name={'ios-arrow-round-forward'} size={35} />
+                  <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-                <ItemTitle>São Paulo</ItemTitle>
-              </SimpleRow>
-              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-              <ItemSubtitle>Carga a granel</ItemSubtitle>
-              <JobDate>Terminou em 14/06/2020</JobDate>
-            </JobContainer>
+                  <ItemTitle>São Paulo</ItemTitle>
+                </SimpleRow>
+                <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+                <ItemSubtitle>Carga a granel</ItemSubtitle>
+                <JobDate>Terminou em 14/06/2020</JobDate>
+              </JobContainer>
 
-            <JobContainer>
-              <SimpleRow>
-                <ItemTitle>Volta Redonda</ItemTitle>
+              <JobContainer>
+                <SimpleRow>
+                  <ItemTitle>Volta Redonda</ItemTitle>
 
-                <Arrow name={'ios-arrow-round-forward'} size={35} />
+                  <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-                <ItemTitle>Rio de Janeiro</ItemTitle>
-              </SimpleRow>
-              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-              <ItemSubtitle>Carga frigorífica</ItemSubtitle>
-              <JobDate>Terminou em 14/06/2020</JobDate>
-            </JobContainer>
+                  <ItemTitle>Rio de Janeiro</ItemTitle>
+                </SimpleRow>
+                <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+                <ItemSubtitle>Carga frigorífica</ItemSubtitle>
+                <JobDate>Terminou em 14/06/2020</JobDate>
+              </JobContainer>
 
-            <JobContainer>
-              <SimpleRow>
-                <ItemTitle>Uberlândia</ItemTitle>
+              <JobContainer>
+                <SimpleRow>
+                  <ItemTitle>Uberlândia</ItemTitle>
 
-                <Arrow name={'ios-arrow-round-forward'} size={35} />
+                  <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-                <ItemTitle>Volta Redonda</ItemTitle>
-              </SimpleRow>
-              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-              <ItemSubtitle>Carga viva</ItemSubtitle>
-              <JobDate>Terminou em 14/06/2020</JobDate>
-            </JobContainer>
+                  <ItemTitle>Volta Redonda</ItemTitle>
+                </SimpleRow>
+                <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+                <ItemSubtitle>Carga viva</ItemSubtitle>
+                <JobDate>Terminou em 14/06/2020</JobDate>
+              </JobContainer>
 
-            <JobContainer>
-              <SimpleRow>
-                <ItemTitle>Belo Horizonte</ItemTitle>
+              <JobContainer>
+                <SimpleRow>
+                  <ItemTitle>Belo Horizonte</ItemTitle>
 
-                <Arrow name={'ios-arrow-round-forward'} size={35} />
+                  <Arrow name={'ios-arrow-round-forward'} size={35} />
 
-                <ItemTitle>Uberlândia</ItemTitle>
-              </SimpleRow>
-              <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
-              <ItemSubtitle>Carga seca</ItemSubtitle>
-              <JobDate>Terminou em 14/06/2020</JobDate>
-            </JobContainer>
-          </View>
-        </ScrollView>
-      </FieldWrap>
+                  <ItemTitle>Uberlândia</ItemTitle>
+                </SimpleRow>
+                <ItemSubtitle>Generic Enterprise LTDA.</ItemSubtitle>
+                <ItemSubtitle>Carga seca</ItemSubtitle>
+                <JobDate>Terminou em 14/06/2020</JobDate>
+              </JobContainer>
+            </View>
+          </ScrollView>
+        </FieldWrap>
+      </View>
     </Container>
   );
 };
