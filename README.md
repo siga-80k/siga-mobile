@@ -18,8 +18,9 @@ react-native run-ios
 ```
 
 ## Telas
-
+<p style="text-align: center;">
 <img src="https://i.imgur.com/jGT30Dp.png" alt="Girl in a jacket" width="414" height="846">
+  </p>
 <img src="https://i.imgur.com/MAi1JDe.png" alt="Girl in a jacket" width="414" height="846">
 <img src="https://i.imgur.com/oV7EUCm.png" alt="Girl in a jacket" width="414" height="846">
 <img src="https://i.imgur.com/xy7B8iQ.png" alt="Girl in a jacket" width="414" height="846">
